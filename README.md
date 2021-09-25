@@ -1,4 +1,4 @@
 # Images to GIF
 
 The repo helps to transform a directory with images into a GIF.
-![alt text](https://www.cbs.nl/-/media/cbs/infographics/verkeerenvervoer/icoon.jpg)
+![alt text](https://storage.googleapis.com/image_hosting_sqm/gif_slideshow_600_600.gif)

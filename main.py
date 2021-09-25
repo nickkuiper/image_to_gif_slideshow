@@ -1,3 +1,4 @@
+import os
 import sys
 import PIL
 import glob
@@ -5,8 +6,8 @@ from PIL import Image
 import resize_img as rimg
 
 frame_duration = .5
-width = 200
-height = 400
+width = 600
+height = 600
 
 # Create the frames
 frames = []
@@ -24,3 +25,6 @@ frames[0].save(export_file_name, format='GIF',
                append_images=frames[1:],
                save_all=True,
                duration=total_duration, loop=0)
+
+export_path = os.path.join(os.getcwd(), export_file_name)
+print(F"Find your file here:\n{export_path}")
